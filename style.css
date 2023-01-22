@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #201610;
+    background-color: #ffffff;
+    padding: 0px;
+}
+header{
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container, .nav-links, .sign-up{
+    display: flex;
+}
+.logo-container {
+     flex: 1;
+     font-size: 22px;
+}
+.light{
+    font-family: 'Pt Serif', serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-right: 02%;
+}
+.bold{
+    font-weight: 700;
+}
+nav{
+    flex: 3;
+    
+}
+
+.nav-links{
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 20%;
+}
+.nav-link{
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #201610;
+}
+main{
+    padding: 15px;
+}
+.content{
+    display: flex;
+    margin: 10px;
+    padding-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+.leftintro{
+    flex: 1;
+    margin: 10px;
+}
+.intro{
+    flex: 2;
+    display: flex;
+    height: 50vh ;
+    padding-left: 100px;
+}
+.image{
+    flex: 1;
+    background: transparent;
+    height: 50vh;
+    justify-content: space-around;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+.clickable{
+    display: flex;
+    padding: 50px;
+    height: 22vh;
+    margin-top: 20px;
+    margin-left: 70px;
+    justify-content: flex-start;
+}
+.book{
+    font-weight: 700;
+    border: 3px solid #201610;
+    background: transparent;
+    width: 200px;
+}
+.exhibit:hover{
+    color: white;
+}
+.book:hover{
+    background: #d74621;
+    color: #ffffff;
+}
+.exhibit{
+    font-weight: 700;
+    border: 3px solid #201610;
+    background: #d74621;
+    width: 200px;
+    margin-left: 100px;
+}
+
